@@ -1,0 +1,4 @@
+repository "Bang@Programmers_without_borders@cloud"
+  path "/"
+    br "/main"
+    co "/main"

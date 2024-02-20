@@ -1,0 +1,34 @@
+﻿začiatok hry:
+    rozdanie rolí
+    výber postáv
+    rozdanie kariet 
+
+ťah:
+    ťahanie kariet (drawCards)
+    hranie kariet (playCards)
+    odhadzovanie kariet (discardCards)
+    koniec ťahu (endTurn)
+
+ťahanie kariet:
+    ak nemá špeciálnu schopnosť na ťahanie kariet:
+        dve karty z balíčka sa premiestnia do hráčovej ruky
+    inak:
+        (podľa schopnosti)
+
+hranie kariet:
+    zahrá ľubovoľný počet kariet s limitom jeden bang na ťah:
+        ak nemá špeciálnu schopnosť na hranie danej karty:
+            vyhodnotí sa normálne
+        inak:
+            (podľa schopnosti)
+
+odhadzovanie kariet:
+    odhodí karty tak aby mal na konci ťahu na ruke najviac toľko kariet koľko má životov
+
+koniec ťahu:
+    začína sa ťah ďalšieho hráča
+    
+    
+vyhodnotenie karty:
+    skontroluje sa či môže hráč zahrať kartu
+    dá sa pristor cieľovému hráčovi na reakciu    
